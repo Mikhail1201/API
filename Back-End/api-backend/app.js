@@ -7,7 +7,7 @@ const User = require('./models/user.model.js');
 const app = express();
 const PORT = 3000;
 
-// Middleware
+// Middlewarees
 app.use(bodyParser.json());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
